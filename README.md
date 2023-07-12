@@ -2,7 +2,7 @@
 
 ## Starting/Replicating this Repository
 1. Create a repository on Github where you will be connecting your web application and where you will be managing all of your awesome code!!
-2. Next, head on over to ([Spring Initializr] (https://start.spring.io/)https://start.spring.io/) to initialize your Spring Project
+2. Next, head on over to ([Spring Initializr] (https://start.spring.io/)) to initialize your Spring Project
    - Select a Maven project
    - Choose a Language (we chose Java)
    - Select a Spring Boot Version (we are using 3.1.1)
