@@ -1,6 +1,7 @@
 # GradeMaster-Java-SpringBoot
 
 ## Starting/Replicating this Repository
+### Build Your Own
 1. Create a repository on Github where you will be connecting your web application and where you will be managing all of your awesome code!!
 2. Next, head on over to [Spring Initializr](https://start.spring.io/) to initialize your Spring Project
    - Select a Maven project
@@ -22,3 +23,8 @@
 5. Add a file src/main/resources/example.properties and add it to Git. Structure this so that anyone who checks out the example.properties can mimic their application.properties based off of the example
 6. Connect your repository to your project (always check to make sure anything you have .gitignore is not tracked and remain untracked for any commit/push)
 7. Happy Coding!!!!
+## OR 
+### Replicate This Repository
+1. Head to [Our Repository](https://github.com/GradeMasters/GradeMaster-Java-SpringBoot)
+2. Clone or Fork this repository
+3. Happy Coding!!!!
