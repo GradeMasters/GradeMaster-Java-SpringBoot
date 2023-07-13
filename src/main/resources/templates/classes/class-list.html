@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"
+	  xmlns:th="http://www.thymeleaf.org"
+	  xmlns:sec="http://www.thymeleaf.org/extras/spring-security">
+<head>
+	<meta charset="UTF-8">
+	<title>Classes Page</title>
+</head>
+<body>
+
+<h1>This is the class list page...</h1>
+
+<ul>
+	<li th:each="class : ${classes}">
+		<a th:href="@{'/classrooms/' + ${class.id} + '/gradebook'}" th:text="${class.name}"></a>
+	</li>
+</ul>
+
+</body>
+</html>

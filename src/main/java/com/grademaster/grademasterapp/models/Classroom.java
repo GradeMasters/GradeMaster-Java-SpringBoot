@@ -1,10 +1,8 @@
-package com.grademaster.grademasterapp.Models;
+package com.grademaster.grademasterapp.models;
 import jakarta.persistence.*;
 import lombok.*;
 
-@AllArgsConstructor
 @RequiredArgsConstructor
-@NoArgsConstructor
 @Getter
 @Setter
 @Entity
