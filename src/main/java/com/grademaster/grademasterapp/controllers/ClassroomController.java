@@ -3,18 +3,13 @@ package com.grademaster.grademasterapp.controllers;
 import com.grademaster.grademasterapp.models.Classroom;
 import com.grademaster.grademasterapp.models.Student;
 import com.grademaster.grademasterapp.repositories.StudentRepository;
-import jakarta.transaction.Transactional;
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import com.grademaster.grademasterapp.repositories.ClassroomRepository;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-
 import java.util.List;
-import java.util.Optional;
 
 @Controller
 @RequestMapping("/classrooms")
